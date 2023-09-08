@@ -1,0 +1,74 @@
+.form-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-body-child {
+    border: 3px solid #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.toDoHeading {
+    font-size: 85px;
+}
+
+.toDoListDiv {
+    background: #000;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: rgb(255 255 255 / 35%) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.addTaskInput {
+    background: #000;
+    color: #fff;
+}
+
+.btn-dark-custom {
+    background-color: #000;
+}
+
+.btn-dark-custom:hover {
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+
+}
+
+.paginationButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 15px;
+}
+
+/* loader starts */
+.loader {
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid #198754;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+  
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+/* loader ends */
